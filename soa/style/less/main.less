@@ -4,7 +4,7 @@ body{ background: #F4F5F5; }
 
 //帖子列表页头部
 .topics-header{
-    background: #FFF; margin-bottom:20px; padding-top:20px; box-shadow: 0 1px 2px 0 rgba(0,0,0,.05);
+    background: #FFF; margin-bottom:20px; padding-top:15px; box-shadow: 0 1px 2px 0 rgba(0,0,0,.05);
     .title{
         margin:20px 0;
         h2{ margin:0; line-height: 28px; font-size: 24px; float: left; }
@@ -28,12 +28,12 @@ body{ background: #F4F5F5; }
             &:hover{ background-color: #f7f9f9; }
             display: block; padding: 25px 25px 25px 150px; position: relative; overflow: hidden; color:#333;
             .thumb{
-                width: 100px; height: 140px; position: absolute; left:25px; top:25px;
+                width: 100px; position: absolute; left:25px; top:25px;
                 box-shadow: 3px 4px 12px 0 rgba(0,0,0,.2); overflow: hidden; background-color: #ccc;
                 img{ width: 100%; }
             }
             .info{
-                min-height: 140px; float: left;
+                float: left; min-height: 130px;
                 h3{ font-size: 18px; margin:0;
                     &:hover{ color: #007fff; }
                 }
@@ -50,6 +50,7 @@ body{ background: #F4F5F5; }
                     }
                 }
                 .more{
+                    display: none;
                     margin-top:10px;
                     span.price{ float:left; color: #ed7b11; font-size: 18px; }
                     .message{
